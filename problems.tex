@@ -1,0 +1,134 @@
+\documentclass[10pt]{scrartcl}\usepackage[utf8]{inputenc}\usepackage{amsmath}\usepackage{amsfonts} \usepackage{tikz}\usepackage{asymptote}\usepackage[most]{tcolorbox}\usepackage{fancyhdr}\usepackage{geometry}\usepackage{color}\usepackage{lewis}\usepackage[T1]{fontenc}\usepackage[explicit]{titlesec}\usepackage{fontawesome}\usepackage{sansmathfonts}\pagestyle{fancy}
+\renewcommand*\familydefault{\sfdefault}\title{Combinatorics}\author{The IMTC Team}\definecolor{blue1}{HTML}{0B5394}\definecolor{blue2}{HTML}{3D85C6}\definecolor{blue3}{HTML}{1172b7}\chead{\logo}\lhead{\color{blue3}\sffamily\bfseries Problems}\rhead{\color{blue3}\sffamily\bfseries }\cfoot{\color{blue3}\thepage}\let\oldheadrule\headrule\renewcommand{\headrule}{\color{blue3}\oldheadrule}\renewcommand{\headrulewidth}{0.5pt}\titleformat{\subsection}  {\color{blue3}\sffamily\large\bfseries}{\thesection}{1em}{#1}\newtcolorbox{problem}[2][]{  standard jigsaw,   opacityframe=.0000001,  opacityback=0,   colframe=#2!80!blue,  #1,}\begin{document}
+% \begin{tcolorbox}[standard jigsaw, opacityback=0,  colframe=blue3!80!blue]\begin{center}\color{blue1}\Huge\bfseries\sffamily Rules\color{blue1}\sffamily\small\end{center}\end{tcolorbox}
+\newpage\restoregeometry\newgeometry{top=2.5cm}\setlength{\parindent}{0pt}
+\subsection*{Problem 1}
+All the vertices of the triangle \(ABC\) lie on the graph \(y=\frac{1}{x}\) on a cartesian plane. If its orthocenter lies on the point \((-1, -1)\) and its centroid lies on the point \((7, 9)\), the length of its circumradius can be expressed as \(\sqrt{m}\). Find \(m\).
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 2}
+A toy store sells building blocks with heights of $1$, $2$, $3$, $4$, and $5$. Paul has an ample number of each type of block and wants to create two towers. How many possible ordered pairs of two towers with equal height can Paul create with exactly $9$ building blocks so that the bases of the $7$ blocks not touching the ground each have a unique elevation. (Note: Blocks of the same height are indistinguishable)
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 3}
+How many ways can an integer $1-14$ be placed at every vertex of a $13$-gon (they don't necessarily need to be distinct) so that no substring of consecutive vertices have a total sum divisible by $15$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 4}
+Let $ABC$ be an acute triangle so that the distances from its circumcenter, orthocenter, and incenter to segment $BC$ are $6$, $3$, and $5$ respectively. If the area of $ABC$ can be expressed as $m\sqrt{n}$ for positive integers $m$ and $n$ where $n$ is square-free, find $m+n$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 5}
+Let $ABC$ be a triangle with circumcenter $O$ and let $D$ be a point on $BC$. Suppose line $BO$ meets the circumcenter of $ABD$ at $E$ and let line $CO$ meet the circumcenter of $ACD$ at $F$, If the circumcenter of $DEF$ is $X$, prove that $XO\parallel{BC}$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 6}
+Let $ABCD$ be a rectangle and let $\omega$ be the circle with center $A$ that passes through $C$. If line $BD$ intersects $\omega$ at points $P$ and $Q$ so that $PB < PD$. Given that $PB = 10$ and $DQ = 12$, the area of $ABCD$ can be written as $m\sqrt{n}$, where $m$ and $n$ are positive integers and $n$ is not divisible by the square of any prime. Find $m+n$.
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 7}
+Let $N$ be the number of $20$-digit numbers that exist so that exactly 8 pairs of adjacent digits sum to a multiple of $3$, exactly $8$ pairs of adjacent digits differ by a multiple of $3$, and exactly $7$ pairs of adjacent digits multiply to a multiple of $3$. Find the number of divisors of $N$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 8}
+Let $ABC$ be an acute triangle and let $X$ and $Y$ be points on $AB$ and $AC$ respectively so that the circumcircle of triangle $AXY$ is tangent to $BC$ at the foot of the $A$-altitude . Suppose the $B$-altitude and $C$-altitude intersect $XY$ at points $P$ and $Q$ so that $XP=1$, $PQ=2$, and $QY=6$. Find the remainder when the square of the area of $ABC$ is divided by $1000$.
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 9 }
+For a real number $x$, let $\lfloor x\rfloor$ be the greatest integer less than or equal to $x$, and define $x-\lfloor x\rfloor$ to be the fractional part of $x$. For a positive integer $n$, the infinite sequence of numbers 
+\[\frac{n}{2},\ \frac{n}{2^2},\ \frac{n}{2^3},\ \frac{n}{2^4}, \dots\]
+ is written on a whiteboard. Upon noticing the whiteboard, Bob sums the fractional parts of every term of the sequence and Joe sums the fractional part of every third term in the sequence (starting with $\tfrac{n}{2^3}$). Given that Bob's sum is twice Joe's sum, find the smallest possible value of $n$.
+
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 10}
+Let $AIME$ be a rectangle and let $I,N,D,E,X$ be colinear points in that order such that $IN = 3$, $ND=1$, $DE=5$. Given that $(MDX)$ bisects $AE$ and $(ANX)$ bisects $ME$, the area of $AIME$ can be written in simplest form as $m\sqrt{n}$. Find $m+n$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 11}
+
+Three points $A$, $B$, and $C$ lie on the graph of $y=x^2$. Given that lines $AB$, $BC$, $CA$ contain the points $(1, -7)$, $(1, 4)$, and $(1, 7)$ respectively, the area of $ABC$ can be expressed as $\frac{m}{n}$ for relatively prime positive integers $m$ and $n$. Find $m+n$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 12}
+Let $X$ be the number of ordered pairs of monic polynomials with integer coefficients  $\left(P(x), Q(x)\right)$ such that $$P(x)\cdot{}Q(x) = (x-1)(x-2)(x-3)\dots(x-17)$$ and the equation $\max(P(x), Q(x))=0$ has exactly $10$ real solutions. Compute the remainder when $X$ is divided by $1000$.
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 13}
+There are $21$ students standing in a line. Every hour, a random pair of adjacent students have a fight, causing the losing student to exit the line. Given that each student has an equal chance of winning each fight, the probability that the final fight is between the third student from the left and the fourth student from the right in the initial line can be expressed as $\tfrac{m}{n}$ for relatively prime positive integers $m$ and $n$. Find $m+n$.
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 14}
+Define a sequence of rational numbers,  \(a_0, a_1, a_2, \cdots\) so that \(a_{k+1} = |1-\frac{1}{a_k}|\). Find the number of possible values of \(a_0\) so that \(a_{12}=0\).
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 15‎ ‎ ‎}
+
+Find the product of all possible real values of $k$ so that there exists a non-zero polynomial $P(x)$ such that $$P(x)=P(20)x^2+P(k)x+P(23)$$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 16}
+Let $\mathcal{S}$ be the set of the first 8 prime numbers. For each subset $\mathcal{T}$ of $\mathcal{S}$, let $f(\mathcal{T})$ be the remainder when the product of the elements of $\mathcal{T}$ is divided by $6$. Find the sum of $f(\mathcal{T})$ over all subsets of $\mathcal{S}$. Note: for the empty set, we define $f(\emptyset) = 1$.
+\\
+\noindent\rule{14.5cm}{0.8pt}
+
+\subsection*{Problem 17}
+Let $ABC$ be a triangle with circumcenter $O$. Suppose $D$ is the foot of the altitude from $A$ to $BC$. If the distances from $O$ to $AB$, $AD$, and $AC$ are $7$, $5$, and $3$ respectively, find the area of $ABC$.
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 18}
+How many ways to color each edge of $4\times 4$ grid with one of $6$ colors such that each cell has exactly $3$ colors on its perimeter
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 19}
+
+Distinct real numbers, $r_{1}, r_{2}$ and $r_{3}$ are roots of the equation $12 r_{1} x^{3}+72 r_{2} x^{2}+432 r_{3} x=0$. Find the value of $r_{1}^{2}+r_{2}^{2}+r_{3}^{2}.$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 20}
+
+
+There exist quadratic functions $P(x)$ and $Q(x)$ with real coefficients. Each of the three equations 
+
+\[P(x) = Q(x)\] 
+\[P(x) = 2Q(x)\] 
+\[P(x) = 3Q(x)\]
+
+has exactly $1$ solution. Given that the solutions to these three equations are $x = 20$, $22$, and $n$ for a real number $n$, find the sum of all possible values of $n$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 21}
+Let $ABCD$ be a rhombus. Suppose the ellipse with foci at $A$ and $C$ that pass through $B$ and $D$ has area $\sqrt{71}\pi$ and the ellipse with foci $B$ and $D$ that pass through $A$ and $C$ has area $\sqrt{125}\pi$. Find the square of the perimeter of $ABCD$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 22}
+Let \(P(x)\) be a quadratic polynomial such that the product of the roots of \(P\) is \(20\). Real numbers  \(a\) and \(b\) satisfy \(a+b = 22\) and \(P(a) + P(b) = P(22)\). Find \(a^2 + b^2\).
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 23}
+There are $10$ distinguishable penguins numbered from $1$ to $10$ sitting in a row of $10$ seats. One day, Fred adds $3$ empty seats to the left of the row and then goes to sleep. Every subsequent day, one penguin moves from its current seat to an empty seat to the left. After many days, Fred returns, and finds that the penguins now occupy the $10$ leftmost seats in the row. Let $N$ be the number of possible seating arrangements the penguins could be in. Compute the remainder when $N$ is divided by $1000$.
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 24}
+
+Let $DEF$ be the orthic triangle of $ABC$. Given that $[BDF]=10$, $[DEF]=15$, $[CDE]=40$, find $\tan{\angle{BAC}}$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 25}
+
+There exist five basketball teams, each with a different fixed skill level such that when two of the teams play a basketball game, the team with the higher skill level always wins. Every day a manager randomly chooses two teams to play a game with each other. Let $x$ be the expected number of games the manager needs to observe in order to correctly rank the teams' skill levels. If $x$ can be expressed as $\frac{m}{n}$ for relatively prime positive integers $m$ and $n$, what is $m+n$?
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 26}
+Let $ABC$ be a triangle and let $D$, $E$, and $F$ be points on segments $BC$, $AC$, and $AB$ respectively, so that $E$ is the reflection of $B$ over $DF$, and $F$ is the reflection of $C$ over $DE$. Segments $CF$ and $BE$ meet at a point $G$. Given that $AG = 8$ and $EF = 7$, find the area of triangle $EGF$
+\\
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 28}
+An angle $\theta$ is randomly chosen from the interval $[0, 2\pi]$. The probability that $\sin(3\theta)>\sin(2\theta)>\sin(\theta)$ can be expressed as $\frac{m}{n}$ for relatively prime positive integers $m$ and $n$. Find $m+n$.
+
+\noindent\rule{14.5cm}{0.8pt}
+\subsection*{Problem 29}
+Every minute, Juan chooses a random divisor of $2310$ and writes it on a blackboard. He continues process indefinitely until two numbers on the board are not relatively prime. Find the number of ways that Juan can do this so that he stops when exactly $4$ numbers are written on the board.
+\\
+
+\end{document}
