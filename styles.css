@@ -47,6 +47,11 @@ img, svg { max-width: 100%; }
 
 .page-section { margin: 0 auto; max-width: var(--max); padding: 56px 24px; scroll-margin-top: 55px; }
 .hero { min-height: auto; padding-bottom: 56px; padding-top: 48px; }
+.hero-layout { align-items: center; display: grid; gap: clamp(48px, 10vw, 140px); grid-template-columns: minmax(0, 1fr) 260px; }
+.hero-art { margin: 0; }
+.hero-art-frame { aspect-ratio: 1; background: var(--cyan); border: 1px solid var(--line); border-radius: 50%; display: grid; overflow: hidden; place-items: center; }
+.hero-art img { display: block; height: 84%; object-fit: contain; width: 84%; }
+.hero-follow-up { margin-top: 18px; }
 .eyebrow, .card-topline {
   color: var(--muted);
   font-family: inherit;
@@ -91,6 +96,8 @@ h2 { font-size: clamp(32px, 4vw, 40px); letter-spacing: -.05em; line-height: 1; 
   .site-nav { gap: 15px; }
   .page-section { padding: 64px 18px; }
   .hero { align-items: start; display: block; min-height: auto; padding-bottom: 72px; padding-top: 48px; }
+  .hero-layout { align-items: start; display: flex; flex-direction: column-reverse; gap: 32px; }
+  .hero-art { width: min(220px, 60vw); }
   .intro { font-size: 17px; margin-top: 32px; }
   .section-heading { margin-bottom: 32px; }
   .section-lede { margin-top: 20px; max-width: 620px; }
